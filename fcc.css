@@ -1,0 +1,271 @@
+*{
+  margin:0px;
+  box-sizing: border-box;
+}
+#navbar{
+  position: fixed;
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  top:0px;
+  
+}
+#nav-sec1{
+  background-color: #0A0A23;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  width:100%;
+  height:50px;
+  text-align: center;
+  
+}
+#search{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(49, 47, 47);
+  float:left;
+  margin-left: 50px;
+
+}
+#search img{
+  height:30px;
+  width:30px;
+}
+#search input{
+  margin:0px;
+  text-align: center;
+  background-color: rgb(49, 47, 47);
+  border:none;
+  width:300px;
+  font-size: larger;
+  color: #fff;
+  font-weight: bold;
+}
+#nav-sec1 a img{
+  height:25px;
+  width:200px;
+  margin:0px 300px 0px 170px;
+}
+#forum{
+  text-decoration: none;
+  font-size: 30px;
+  color:#fff;
+  margin-right: 20px;;
+}
+#donate-btn {
+  text-decoration: none;
+}
+
+#donate-btn button {
+  background-color: #feac32;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+@media (max-width:700px){
+  #search{
+    display:none;
+  }
+#nav-sec1 a img{
+  float:left;
+}
+#donate-btn button {
+  float:right;
+}
+#hero{
+  display:none;
+}
+
+}
+#nav-sec2{
+  background-color: #002ead;
+  width:100%;
+  height:40px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#fff
+}
+#nav-sec2 a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+#nav-sec2 a span{
+  text-decoration: underline;
+}
+body{
+  margin-top:90px;
+  height:100vh;
+
+
+}
+#body-sec-1{
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:30px;
+  
+}
+#hero{
+  height:auto;
+  width:100%
+}
+
+#author{
+  display:flex;
+  flex-direction:row;
+  float :left;
+}
+#author p{
+  margin:35px;
+  font-size: 20px;
+}
+#author img{
+  width:80px;
+  height:80px;
+}
+#body-sec-1{
+  line-height:30px;
+}
+#body-sec-1 h3{
+  font-size:40px;
+  line-height: 50px;
+}
+#body-sec-1 p{
+  font-size:20px;
+}
+#date{
+  font-size: smaller;
+  color:rgb(82, 77, 77)
+}
+.body-div2{
+  display:flex;
+  flex-direction: row;
+  height:auto;
+  width:100%;
+}
+.div21{
+  height:100%;
+  width:70%;
+  font-size: 80px;
+}
+.aside {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 40px;
+}
+
+.mainadv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mainadv button {
+  background-color: #4a32fe;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 10px; 
+}
+
+.mainadv p {
+  color: #57606f;
+  margin-bottom: 5px;
+}
+
+.mainadv img {
+  height: 70px; 
+  margin-bottom: 10px; 
+}
+.head{
+  font-size: 50px;
+  margin: 10px;
+}
+.footerdiv{
+  display:flex;
+  flex-direction: row;
+  height:auto;
+  width:100%;
+  background-color: aliceblue;
+  margin-top:30px;
+}
+.div1{
+  width:50%;
+  line-height: 30px;
+  font-size: 20px;
+  padding:30px;
+}
+.secdiv{
+  display:flex;
+  flex-direction: column;
+  height:auto;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+.middle{
+  display:flex;
+  flex-direction: row;
+  height:auto;
+  width:100%;
+}
+.div2{
+  width:50%;
+  line-height: 30px;
+  padding:10px;
+}
+.div3{
+  width:50%;
+  line-height: 30px;
+  padding:10px;
+}
+#final{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  height:50px;
+  width:100%;
+
+}
+#final a{
+  text-decoration: none;
+  color:#57606f;
+}
+li{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  text-decoration-color: #fff;
+}
+ol{
+  text-decoration: none;
+}
